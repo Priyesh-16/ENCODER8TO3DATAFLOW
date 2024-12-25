@@ -18,19 +18,11 @@ Figure 01  Block Diagram of Encoder 8 * 3
 
 **Truth Table**
 
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/35496b14-ae6e-4cd1-9abd-d6736b576575)
 
-The logical expression of the term A0, A1, and A2 are as follows:
+![image](https://github.com/user-attachments/assets/11d67b9b-a322-4829-868b-020c03ef3080)
 
-A0 = D1 + D3 + D5 + D7
 
-A1 = D2 + D3 + D6 + D7
-
-A2 = D4 + D5 + D6 + D7
-
-Logical circuit of the above expressions is given below:
-
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/95acaee6-c873-4c75-89eb-ef09fb158053)
+![image](https://github.com/user-attachments/assets/68120722-c070-4447-8eea-43485b374f7c)
 
 Figure 02  Encoder 8 * 3
 
@@ -39,32 +31,17 @@ Figure 02  Encoder 8 * 3
 /* write all the steps invloved */
 
 
+![image](https://github.com/user-attachments/assets/877a1067-4fcc-4972-997b-e5ba93b3a670)
 
-
-1.Type the program in Quartus software. 
-
-2.Generate the RTL schematic and save the logic diagram.
-
-3.Create nodes for inputs and outputs to generate the timing diagram.
-
-4.For different input combinations generate the timing diagram
 
 **PROGRAM**
 
-
-modmule encoder (a, b, c, y0, y1, y2, y3,y4, y5, y6, y7);
-
-input yo, y1,y2, y3,y4, y5, y6, y7;
-
-output a,b,c; assign a= (y4 y5 | y6 | y7);
-
-assign b= (y2 | y3 | y6 | y7);
-
-assign c= (y1 | y3 | y5 | y7);
-
-endmodule
-
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+![image](https://github.com/user-attachments/assets/806129f7-46fc-4595-98d9-b7bfde0fcb79)
+
+![image](https://github.com/user-attachments/assets/6cd8ea9b-bfde-4923-b260-cd474f61c31b)
+
+![image](https://github.com/user-attachments/assets/ef2ee9a1-9e9b-4a2a-9ec7-2d759ade2461)
 
 Developed by : Priyesh.S 
 
@@ -72,11 +49,19 @@ RegisterNumber:24008184
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![394143813-7f6b9520-dceb-45e7-b967-bf97e9931b77](https://github.com/user-attachments/assets/523ab083-3234-41e2-8a9a-92208d959fd2)
+
+FULL ADDER
+![image](https://github.com/user-attachments/assets/8da2ec94-3ef8-4260-8cbf-df4acaee49aa)
+FULL SUBTRACTOR
+
+
+![image](https://github.com/user-attachments/assets/022aba95-b7b5-45c8-ad79-0538ff3b7848)
 
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-![394143685-6c81ff5d-c68a-4f20-80c4-3e9cd6afe4ce](https://github.com/user-attachments/assets/1b3a52fa-df54-4ea0-9c0c-90e97fc66c64)
+![image](https://github.com/user-attachments/assets/76bd5f15-0f4b-4023-a78d-c19fa719119b)
+![image](https://github.com/user-attachments/assets/aab26bfc-020e-45e0-9f6a-4dfcc86a7b43)
+
 **RESULTS**
 Thus the Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables is implemented
 
